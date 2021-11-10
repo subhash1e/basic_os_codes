@@ -42,7 +42,7 @@ int main()
 	end = clock();
 	time_spent = (double)(end-begin)/CLOCKS_PER_SEC;
 
-	printf("time taken to create 20,000 child threads: %f\n",time_spent  );
+	printf("time taken to create 100,000 child threads: %f\n",time_spent  );
 
 	return 0;
 }
