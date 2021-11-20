@@ -1,3 +1,7 @@
+'''
+ SCAN algorithm
+ for Disk scheduling operation.
+'''
 #ASSUME DISK SIZE = 400 [0...399]
 #at starting head is at track no. 100
 #requested queue contains track no.s
@@ -46,3 +50,11 @@ print("Total seek operations = ", seek_count);
 
 print("Initial head position was at :", init_head)
 print("SCAN order seek sequence is ",*seek_array)
+#########################################################
+
+'''
+Total seek operations =  400
+Initial head position was at : 100
+SCAN order seek sequence is  95 90 80 55 50 0 120 150 200 300
+[Finished in 58ms]
+'''
