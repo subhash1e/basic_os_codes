@@ -1,6 +1,5 @@
 '''
-a)  
-Write a python program to simulate 
+
 FCFS algorithm for Disk scheduling operation
 
 '''
@@ -21,3 +20,12 @@ for xx in arr:
 print("Total seek operations = ", seek_count);
 print("Initial head position was at :", init_head)
 print("fcfs order seek sequence is ",*arr)
+
+
+##########################
+'''
+Total seek operations =  730
+Initial head position was at : 100
+fcfs order seek sequence is  200 300 100 50 90 80 95 150 55 120
+[Finished in 60ms]
+'''
