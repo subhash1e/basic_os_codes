@@ -1,6 +1,5 @@
 '''
-b)
- Write a python program to simulate
+
  SSTF (Shortest seek time first) algorithm
  for Disk scheduling operation.
 '''
@@ -40,4 +39,13 @@ seek_array.append(head)
 
 print("Total seek operations = ", seek_count);
 print("Initial head position was at :", init_head)
-print("SSTF order seek sequence is ",*seek_array)
+print("SSTF order seek sequence is ",*seek_array[1:])
+
+
+##################################
+'''
+Total seek operations =  300
+Initial head position was at : 100
+SSTF order seek sequence is  100 95 90 80 55 50 120 150 200 300
+[Finished in 59ms]
+'''
