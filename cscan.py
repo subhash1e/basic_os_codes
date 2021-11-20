@@ -1,5 +1,5 @@
 '''
-b)
+
  Write a python program to simulate
  CSCAN algorithm
  for Disk scheduling operation.
@@ -42,3 +42,12 @@ for xx in left :
 print("Total seek operations = ", seek_count);
 print("Initial head position was at :", init_head)
 print("SSTF order seek sequence is ",*seek_array)
+
+####################
+'''
+o/p:
+Total seek operations =  394
+Initial head position was at : 100
+SSTF order seek sequence is  120 150 200 300 399 0 50 55 80 90 95
+[Finished in 99ms]
+'''
