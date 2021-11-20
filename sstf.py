@@ -44,6 +44,7 @@ print("SSTF order seek sequence is ",*seek_array[1:])
 
 ##################################
 '''
+o/p:
 Total seek operations =  300
 Initial head position was at : 100
 SSTF order seek sequence is  100 95 90 80 55 50 120 150 200 300
